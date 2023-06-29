@@ -3,6 +3,6 @@ pre-entrega
 
 las pantallas responsive son el index y la de productos
 
-link pages:
+link pages: https://fedeassale.github.io/preentrega2Assale/
 
-link repo:
+link repo: https://github.com/fedeassale/preentrega2Assale.git
