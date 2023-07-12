@@ -6,15 +6,18 @@ footer{
     background-color:$mainColor;
     color: rgb(255, 255, 255);
     height:auto;
-}
-    footer a {
+        a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 1em;
-}
-footer img{
+        }
+        img{
     height: 4em;
     width: 5em;
+        }
+        div a:hover{
+            color: cornflowerblue;
+           }
 }
 .ml-2{
     margin-left: 10px;
@@ -24,6 +27,3 @@ footer img{
     width: 40px;
     margin: 2em;
 }
-footer div a:hover{
-    color: cornflowerblue;
-   }

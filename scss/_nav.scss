@@ -2,20 +2,20 @@
     padding-left: 1em;
     width: 8em;
 }
-        nav{
-            background-color: $mainColor;
-            height:150px;  
-            ul{
-                list-style-type: none;
-                padding: 2em 1em;       
-            }
-            li a{
-                color: white;
-                text-decoration: none;
-                animation-name:textnav;
-                animation-duration:2s;
-            }
-        } 
+nav{
+    background-color: $mainColor;
+    height:150px;  
+        ul{
+            list-style-type: none;
+            padding: 2em 1em;       
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+            animation-name:textnav;
+            animation-duration:2s;
+        }
+    } 
 .botonera{
     @include btn($secundaryColor,5px,1px,0.1em,1em,none,$secundaryColor);
     &:hover{
