@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $mainFont;
+    background-attachment: fixed;
+}
+body{
+    font-size: $textMd;
+    line-height: 2em;
+    background-color: $backColor;
+}
+.centrar{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+}
+.textoblanco{
+    color: rgb(239, 240, 242);
+}
+.negrita{
+    font-weight: bold;
+}
+.text-grande{
+    font-size: $textXl;
+}
+.text-precios{
+    font-size: $textLg;
+}
+.letratachada{
+    text-decoration-line: line-through;
+}
+.size-text{
+    font-size:$textMd;
+}
+.style-none{
+    border: none;
+    text-decoration-line: underline;
+}
+@mixin btn($bordecolorbtn,$radio,$ancho,$pad,$mar,$backcolorbtn,$textcolorbtn){
+border-style: solid;
+border-color: $bordecolorbtn;
+border-radius:$radio;
+border-width: $ancho;
+padding: $pad;
+margin:$mar;
+background-color:$backcolorbtn;
+color: $textcolorbtn;
+text-decoration: none;
+}
+.btn-general{
+    @include btn($keyColor,5px,1px,0.5em 1em,1em,$secundaryColor,$keyColor);
+&:hover{
+    background-color: $keyColor;
+    color: $secundaryColor;
+    }
+}
+@keyframes textnav{
+    from{opacity: 0}
+    to{opacity: 1;}
+}

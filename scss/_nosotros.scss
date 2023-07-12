@@ -1,0 +1,17 @@
+.list-style{
+    list-style: none;
+}
+@keyframes galeria-animation{
+    0%{background-image: url(../imagenes/Casilda\ 1op.webp);}
+    50%{background-image: url(../imagenes/casilda\ 3op.webp);}
+    100%{background-image: url(../imagenes/casilda\ 4op.webp);}
+}
+.galeria-nosotros{
+    height: 23vh;
+    width: 50vh;
+    object-fit: cover;
+    animation-name: galeria-animation;
+    animation-duration:6s ;
+    animation-iteration-count:infinite ;
+    margin: 1em auto;
+}
