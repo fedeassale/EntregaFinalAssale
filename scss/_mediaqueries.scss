@@ -41,12 +41,12 @@
         height: 10em;
     }
     .img-centrar{
-        width: 50%;
         margin: 1em auto;
+        width: 50%;
     }
     .img-centrar img{
-        width: 100%;
-        object-fit: contain;
+       width: 100%;
+       object-fit: contain;
     }
 }
 @media(width <590px){

@@ -38,8 +38,9 @@ body{
     text-decoration-line: underline;
 }
 .imgerror-centrar{
-    width: 60%;
     margin: 1em auto;
+    width: 60%;
+    padding:1em;
 }
 .imgerror-centrar img {
     width: 100%;
@@ -66,4 +67,11 @@ text-decoration: none;
 @keyframes textnav{
     from{opacity: 0}
     to{opacity: 1;}
+}
+.btn-general-error{
+    @include btn($keyColor,5px,1px,0.5em 1em,5em,$secundaryColor,$keyColor);
+    &:hover{
+        background-color: $keyColor;
+        color: $secundaryColor;
+        }
 }

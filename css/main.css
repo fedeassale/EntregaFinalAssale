@@ -51,8 +51,9 @@ body {
 }
 
 .imgerror-centrar {
-  width: 60%;
   margin: 1em auto;
+  width: 60%;
+  padding: 1em;
 }
 
 .imgerror-centrar img {
@@ -84,6 +85,22 @@ body {
     opacity: 1;
   }
 }
+.btn-general-error {
+  border-style: solid;
+  border-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 0.5em 1em;
+  margin: 5em;
+  background-color: rgb(240, 238, 238);
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+}
+.btn-general-error:hover {
+  background-color: rgb(29, 29, 29);
+  color: rgb(240, 238, 238);
+}
+
 .tamañologo {
   padding-left: 1em;
   width: 8em;
@@ -94,7 +111,6 @@ nav {
   height: 150px;
 }
 nav ul {
-  list-style-type: none;
   padding: 2em 1em;
 }
 nav li a {
@@ -220,7 +236,7 @@ footer div a:hover {
   grid-area: footer;
 }
 
-.list-style {
+.list-style, nav ul {
   list-style: none;
 }
 
@@ -289,8 +305,8 @@ footer div a:hover {
     height: 10em;
   }
   .img-centrar {
-    width: 50%;
     margin: 1em auto;
+    width: 50%;
   }
   .img-centrar img {
     width: 100%;
