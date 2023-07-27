@@ -35,7 +35,7 @@
     }
     /* productos */
     .text-grande{
-        font-size: $textSm;
+        font-size: $textLg;
     }
     .height--img{
         height: 10em;
@@ -67,5 +67,8 @@
      }
     figure p{
         display: none;
+    }
+    .text-grande{
+        font-size: $textMd;
     }
 }

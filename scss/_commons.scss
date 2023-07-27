@@ -37,6 +37,14 @@ body{
     border: none;
     text-decoration-line: underline;
 }
+.imgerror-centrar{
+    width: 60%;
+    margin: 1em auto;
+}
+.imgerror-centrar img {
+    width: 100%;
+    object-fit: contain;
+  }
 @mixin btn($bordecolorbtn,$radio,$ancho,$pad,$mar,$backcolorbtn,$textcolorbtn){
 border-style: solid;
 border-color: $bordecolorbtn;

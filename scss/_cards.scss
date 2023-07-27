@@ -1,17 +1,21 @@
 div figure a{
-    width: 100%;
-}
-.heigh-descripcion{
-    height: 15em;
+    width: 90%;
 }
 .heigh-title{
     height: 5em;
 }
 .width-figure{
     width: 30%;
-    margin:1px;
+    margin: 10px;
 }
 .height--img{
     height: 15em;
     object-fit: cover;
+}
+.card-borde{
+    border-color: $secundaryColor;
+    background-color: $secundaryColor;
+}
+.width-figure:hover{
+    transform: scale(1.02);
 }

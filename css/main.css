@@ -50,6 +50,16 @@ body {
   text-decoration-line: underline;
 }
 
+.imgerror-centrar {
+  width: 60%;
+  margin: 1em auto;
+}
+
+.imgerror-centrar img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .btn-general {
   border-style: solid;
   border-color: rgb(29, 29, 29);
@@ -110,11 +120,7 @@ nav li a {
 }
 
 div figure a {
-  width: 100%;
-}
-
-.heigh-descripcion {
-  height: 15em;
+  width: 90%;
 }
 
 .heigh-title {
@@ -123,12 +129,21 @@ div figure a {
 
 .width-figure {
   width: 30%;
-  margin: 1px;
+  margin: 10px;
 }
 
 .height--img {
   height: 15em;
   object-fit: cover;
+}
+
+.card-borde {
+  border-color: rgb(240, 238, 238);
+  background-color: rgb(240, 238, 238);
+}
+
+.width-figure:hover {
+  transform: scale(1.02);
 }
 
 section div img {
@@ -145,16 +160,17 @@ footer {
   color: rgb(255, 255, 255);
   height: auto;
 }
-
 footer a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 1em;
 }
-
 footer img {
   height: 4em;
   width: 5em;
+}
+footer div a:hover {
+  color: cornflowerblue;
 }
 
 .ml-2 {
@@ -165,10 +181,6 @@ footer img {
   height: 40px;
   width: 40px;
   margin: 2em;
-}
-
-footer div a:hover {
-  color: cornflowerblue;
 }
 
 .grid-body {
@@ -271,7 +283,7 @@ footer div a:hover {
   }
   /* productos */
   .text-grande {
-    font-size: 0.8em;
+    font-size: 1.6em;
   }
   .height--img {
     height: 10em;
@@ -303,6 +315,9 @@ footer div a:hover {
   }
   figure p {
     display: none;
+  }
+  .text-grande {
+    font-size: 1em;
   }
 }
 
